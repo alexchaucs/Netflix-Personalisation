@@ -4,6 +4,8 @@ Goal: Build a complete end to end personalisation tool that an individual can li
 
 Learning Outcomes: 
 * Data mining
+
+testing
 * Backend - Front End
 * Machine Learning / Analytics
 
