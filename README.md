@@ -6,6 +6,6 @@ Learning Outcomes:
 * Data mining
 * Backend - Front End
 * Machine Learning / Analytics
-* User Experience 
+
 
 
