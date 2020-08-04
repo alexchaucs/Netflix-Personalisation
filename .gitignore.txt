@@ -1,4 +1,0 @@
-config.py
-netflix/
-__pycache__/
-data_scrapper/config_example.py
