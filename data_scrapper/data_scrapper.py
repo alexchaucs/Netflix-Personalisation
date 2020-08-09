@@ -1,17 +1,11 @@
 import pandas as pd
-import requests
-from lxml import html
-import config
+import config ##config_example
+import selenium
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
+driver = webdriver.Chrome('./chromedriver')
+
+### Extracting Netflix Australia Titles
 url = "https://www.netflix.com/au/login"
-
-
-
-session_requests = requests.session()
-result = session_requests.get(login_url) 
-
-
-print(config.username)
-print(config.password)
-
-#test
+driver.get(url)
