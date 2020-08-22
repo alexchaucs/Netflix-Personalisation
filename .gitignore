@@ -3,3 +3,4 @@ text.py
 data_scrapper/config.py
 netflix/
 __pycache__/
+debug.log

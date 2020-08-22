@@ -44,8 +44,31 @@ The Good Place: Season 3: The Snowplow | 26/07/2020
 
 There is an additional option to download all the data collected on my account however this is a requested data retrieval and will take up to 30 days for processing.
 
-#### Netflix Australia 
+
+## Netflix Australia 
+#### Goal:
+Extract all the netflix titles for their movies/tv shows - otherwise we can't suggest movies that isn't within their listing.
+
+#### Process:
 Once agin with the removal of their API  - we have to use an unofficial api or build data scraping tool using Selenium.
+
+The general concept of the approach was to:
+1. Navigate past the authentication page
+2. Go to https://www.netflix.com/browse/genre/34399?so=az
+3. Scrape the current page view
+4. Utilise the scroll function to discover new titles
+5. Iterate Steps 3,4 until there's no more new titles
+
+However as I discovered the - their a-z listing page isn't an infinite scroll page. From A-Z the titles for movies caps at "It's Complicated". The 2009 title featuring Meryl Streep and Alec Baldwin. A definitely classic within the romcom genre - however unfotunately it has complicated things..
+
+Performing the same process on the link https://www.netflix.com/browse/genre/34399?so=za, I was hoping the titles would actually meet at a common point however this was not the case.
+
+
+
+
+
+
+
 
 
 
